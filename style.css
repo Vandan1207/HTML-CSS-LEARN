@@ -1,0 +1,110 @@
+/* three ways to select a html element
+1. tag
+2. ID SELECTOR 
+3. CLASS SELECTOR 
+
+   
+Property 
+1.color ( changes text color)
+2.background ( changes background color )
+3. font family ( changes the style of font )
+4. font size ()
+5. text align ( it algins the element )
+6. margin 
+7. padding 
+8. border 
+9. border radius 
+10. width
+11. heigth 
+12. line-heigth
+13. background-image ( background repeat, background size , background position
+14. box shadow ( x , y , blur , color )
+15. cursor 
+16. overflow ( hidden, auto ) 
+17. list style
+18. opacity 
+19. display ( block - div, section, semantic elements , inline -  span, a, input
+20.position ( absolute , relative ,fixed )
+21. Z-index ( acts as a layer, gives element priority)
+22. transform (rotate , translate  )
+23. transition 
+24. hover (psedo property)
+25. focus(psedo property meaning it applys to a element directly not used inside a element css)
+26. keyframes
+
+----
+Flexbox 
+
+display:flex
+the container we give flex is known as flex container and the items 
+or div inside it is known as flex items
+
+we can use various manipulations on the items like 
+order ( defines the position )
+flex ( defines the width )
+align items
+flex direction ( by default it a row)
+justify content 
+
+             
+
+
+// Reset css 
+we write it in order to remove the defalut css provided by the browser 
+we do it such that issues like default margin and padding provided by the browser
+*{
+     margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+}
+
+a,span,small{
+            display: inline-block;
+        }
+ul,ol{
+            list-style: none;
+        }
+// depending upon the use case we use inline blocl
+QUESTION
+1.BEST PRACTICE (SOME COMMON UNSAID RULES )
+2. TOOLS AND THRID PARTY WEBSITE THAT MAKE IT EASY TO WRITE CODE 
+3. How to scrap the font, color of the webiste we are rebuilding 
+*/
+
+
+
+
+
+body{
+    margin: 0; 
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;  
+  
+}
+ul{
+    list-style: none;
+    gap: 10px ;
+    display: flex;
+
+}
+
+#male{
+    font-size: 50px;
+}
+
+footer{
+    border: 1px solid green;
+    width: 30%;
+    border-radius: 10px;
+    padding-left: 10px ;
+}
+
+
+  
+
+
+
+
+
+
